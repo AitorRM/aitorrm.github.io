@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "es-ES"
-title                    : "Página personal de Aitor Rodríguez"
+title                    : "Aitor Rodríguez"
 title_separator          : "-"
 name                     : "Aitor Rodríguez"
 description              : "Página personal donde iré publicando artículos relacionados con el desarrollo de software, principalmente en Java."
