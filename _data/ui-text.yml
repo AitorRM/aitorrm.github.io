@@ -31,5 +31,34 @@ en-US:
 en-UK:
   <<: *DEFAULT_EN
 
+# Español (default)
+# -----------------
+es: &DEFAULT_ES
+  page                  : "Página"
+  pagination_previous   : "Anterior"
+  pagination_next       : "Siguiente"
+  breadcrumb_home_label : "Inicio"
+  breadcrumb_separator  : "/"
+  toc_label             : "En Esta Página"
+  ext_link_label        : "Enlace Directo"
+  less_than             : "menos que"
+  minute_read           : "minuto de lectura"
+  minutes_read          : "minutos de lectura"
+  share_on_label        : "Compartir en"
+  meta_label            :
+  tags_label            : "Tags:"
+  categories_label      : "Categorías:"
+  date_label            : "Actualizado:"
+  comments_label        : "Deja un comentario"
+  more_label            : "Aprende más"
+  related_label         : "También Puedes Disfrutar"
+  follow_label          : "Seguir:"
+  feed_label            : "Feed"
+  powered_by            : "Powered by"
+  website_label         : "Website"
+  email_label           : "Email"
+es-ES:
+  <<: *DEFAULT_ES
+  
 # Another locale
 # --------------
