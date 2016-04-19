@@ -14,7 +14,7 @@ description              : "Página personal donde iré publicando artículos re
 url                      : "http://aitorrm.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
-teaser                   : "aitor_profile.jpg"
+teaser                   : "default_teaser.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
