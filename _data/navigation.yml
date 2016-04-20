@@ -7,7 +7,7 @@ main:
     url: /year-archive/
     
   - title: "Categorías"
-    url: /collection-archive/
+    url: /categories/
 
   - title: "Acerca de"
     url: /about/
