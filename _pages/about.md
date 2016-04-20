@@ -1,7 +1,9 @@
 ---
-permalink: /about/
 title: "Acerca de"
+layout: single
 excerpt: "Mi nombre es Aitor Rodríguez Martín. "
+sitemap: false
+permalink: /about/
 ---
 
 ## Blog
