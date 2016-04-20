@@ -9,6 +9,7 @@ permalink: /about/
 ## Blog
 
 En esta web iré publicando artículos sobre diversos temas relacionados con el desarrollo de software. Entre ellos:
+
 - Java EE
 - Testing
 - Tendencias
