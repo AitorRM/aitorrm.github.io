@@ -1,10 +1,16 @@
 # main links links
 main:
-  - title: "Blog"
+  - title: "Inicio"
     url: http://aitorrm.github.io/
+    
+  - title: "Artículos"
+    url: /year-archive/
+    
+  - title: "Categorías"
+    url: /collection-archive/
 
   - title: "Acerca de"
     url: /about/
-
-  - title: "Mi rincón"
-    url: http://aitorrm.github.io/
+    
+  - title: "Contacto"
+    url: /contacto/
