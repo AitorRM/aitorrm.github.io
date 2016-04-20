@@ -4,7 +4,7 @@ main:
     url: http://aitorrm.github.io/
 
   - title: "Acerca de"
-    url: http://aitorrm.github.io/
+    url: /about/
 
   - title: "Blog"
     url: http://aitorrm.github.io/
