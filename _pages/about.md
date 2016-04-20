@@ -1,15 +1,23 @@
 ---
-title: "Acerca de"
+title: "Acerca de Aitor Rodríguez"
 layout: single
 excerpt: "Mi nombre es Aitor Rodríguez Martín. "
 sitemap: false
 permalink: /about/
 ---
 
-## Blog
+![Aitor Rodríguez](/images/about_me.jpg)
 
-En esta web iré publicando artículos sobre diversos temas relacionados con el desarrollo de software. Entre ellos:
+Mi nombre es Aitor Rodríguez Martín. Actualmente mi vida gira en torno a Madrid, donde he vivido toda mi infancia y donde actualmente desempeño mis funciones profesionales. Soy Ingeniero Informático especializado en Ingeniería del Software por la universidad de Alcalá y tengo más de quince años de experiencia en esta profesión, principalmente en entornos Java EE.
+
+En este blog iré publicando artículos sobre diversos temas relacionados con el desarrollo de software. Entre ellos:
 
 - Java EE
-- Testing
-- Tendencias
+- Arquitecturas Software
+- Metodologías de trabajo
+- Técnicas de testing y TDD
+- Tendencias, mejores prácticas, patrones, y mucho más...
+
+Todo ello desde mi punto de vista personal y basado en mi experiencia y/o mis inquietudes.
+
+Espero que disfutes tanto como yo ;)
