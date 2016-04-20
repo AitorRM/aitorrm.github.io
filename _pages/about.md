@@ -16,8 +16,8 @@ En este blog iré publicando artículos sobre diversos temas relacionados con el
 - Arquitecturas Software
 - Metodologías de trabajo
 - Técnicas de testing y TDD
-- Tendencias, mejores prácticas, patrones, y mucho más...
+- Tendencias, mejores prácticas, patrones de diseño y mucho más...
 
 Todo ello desde mi punto de vista personal y basado en mi experiencia y/o mis inquietudes.
 
-Espero que disfutes tanto como yo ;)
+Espero que disfrutes tanto como yo ;)
