@@ -9,7 +9,7 @@ tags:
   - Testing
 ---
 
-Empezaremos por el principio: **¿Qué es eso del TDD?**. Bueno, TDD es Test Driven Development, que en la lengua de Cervantes viene a decir "desarrollo dirigido por pruebas". Esto nos puede dar una idea inicial del asunto, por una parte tenemos "desarrollo" y por la otra "pruebas", así que lo primero que podríamos pensar es que TDD es una técnica para probar nuestro código. Vale, pues no. TDD va más allá y se podría definir como **una técnica para diseñar software de calidad apoyándose en el uso de ejemplos. Esos ejemplos son las pruebas.** Por lo tanto no se trata de una técnica de testing, ni de refactorización, se trata de una técnica de diseño.
+Empezaremos por el principio: **¿Qué es eso del TDD?** Bueno, TDD es Test Driven Development, que en la lengua de Cervantes viene a decir "desarrollo dirigido por pruebas". Esto nos puede dar una idea inicial del asunto, por una parte tenemos "desarrollo" y por la otra "pruebas", así que lo primero que podríamos pensar es que TDD es una técnica para probar nuestro código. Vale, pues no. TDD va más allá y se podría definir como **una técnica para diseñar software de calidad apoyándose en el uso de ejemplos. Esos ejemplos son las pruebas.** Por lo tanto no se trata de una técnica de testing, ni de refactorización, se trata de una técnica de diseño.
 
 > **Nota:** TDD no es una técnica de testing, ni de refactorización, es una técnica de diseño.
 
@@ -20,7 +20,7 @@ La técnica de TDD se fundamenta en **tres conceptos: test, desarrollo y refacto
 La idea a grandes rasgos es la siguiente:
 
 1. Test: Hago el ejemplo (el test) que usa la funcionalidad que quiero implementar. Evidentemente este test fallará porque aún no tenemos creado el código.
-2. Desarrollo: Escribo el códgio mínimo para que el ejemplo funcione. Ahora el test anterior debe funcionar.
+2. Desarrollo: Escribo el código mínimo para que el ejemplo funcione. Ahora el test anterior debe funcionar.
 3. Refactorización: Reviso y mejoro el código, pero siempre asegurándome de que el test sigue funcionando.
 
 Y voy repitiendo este ciclo de forma iterativa por cada una de las funcionalidades que necesito desarrollar:
@@ -46,12 +46,12 @@ Y si esto te sabe a poco aquí te resumo otras de las **ventajas** más importan
 - Ayuda a los departamentos de calidad.
 - Reduce la necesidad de documentación.
 
-La filosofía de TDD está muy relacionada con el mundo del desarrollo software, pero poco a poco está calando también a nivel de negocio y, a día de hoy, existen técnicas como el BDD (Behavior Driven Development o "Desarrollo Guiado por el Comportamiento") que amplia las ideas de TDD y las combina con otras ideas de diseño; y ATDD (Desarrollo Dirigido por Tests de Aceptación), también conocido como Story Test-Driven Development (STDD), que es igual que TDD pero a nivel de negocio: en este caso los test de aceptación aseguran que el software cumple los requisitos de negocio que el cliente demanda.
+La filosofía de TDD está muy relacionada con el mundo del desarrollo software, pero poco a poco está calando también a nivel de negocio y, a día de hoy, existen técnicas como el BDD (Behavior Driven Development o "Desarrollo Guiado por el Comportamiento") que amplía las ideas de TDD y las combina con otras ideas de diseño; y ATDD (Desarrollo Dirigido por Tests de Aceptación), también conocido como Story Test-Driven Development (STDD), que es igual que TDD pero a nivel de negocio: en este caso los test de aceptación aseguran que el software cumple los requisitos de negocio que el cliente demanda.
 
 
 ## Más información
 
-Te animo a que que busques más información sobre ésto del TDD por internet y si realmente te interesa te recomiendo las siguientes lecturas:
+Te animo a que busques más información sobre esto del TDD por internet y si realmente te interesa te recomiendo las siguientes lecturas:
 
 - *"Diseño ágil con TDD" de Carlos Ble*. Es el primer libro publicado en castellano sobre TDD (de 2010). Es ideal para una lectura rápida y amena con la que afianzar conceptos. Su autor lo distribuye de forma gratuita en su versión online.
 - *"Test-driven Development By Example" de Kent Beck*. Es el libro de TDD por excelencia. Kent Beck es uno de los creadores de TDD y de la metodología eXtreme Programming (XP). El libro es de 2002 pero es idóneo para entender los orígenes de esta técnica.
