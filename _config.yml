@@ -145,6 +145,21 @@ kramdown:
   enable_coderay: false
 
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
+
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
