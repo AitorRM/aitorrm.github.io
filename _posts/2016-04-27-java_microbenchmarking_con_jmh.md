@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Java Microbenchmarking con JMH"
 header:
   teaser: "post_teaser_testing.jpg"
