@@ -51,7 +51,7 @@ es: &DEFAULT_ES
   date_label            : "Actualizado:"
   comments_label        : "Deja un comentario"
   more_label            : "Aprende más"
-  related_label         : "También Puedes Disfrutar"
+  related_label         : "También te puede interesar"
   follow_label          : "Seguir:"
   feed_label            : "Feed"
   powered_by            : "Powered by"
