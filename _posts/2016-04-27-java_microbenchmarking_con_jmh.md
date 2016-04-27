@@ -333,7 +333,7 @@ public class BenchmarkConcatString {
 	}
 ```
 
-No pongo aquí todo el código por no saturar, pero puedes descargarte el ejemplo completo desde mi Github: https://github.com/aitorrm/java-benchmarks-jmh
+No pongo aquí todo el código por no saturar, pero puedes descargarte el ejemplo completo desde mi Github: [https://github.com/aitorrm/java-benchmarks-jmh](https://github.com/aitorrm/java-benchmarks-jmh)
 
 Mostraré directamente el resultado que he obtenido:
 
