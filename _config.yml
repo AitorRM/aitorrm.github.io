@@ -9,8 +9,8 @@
 locale                   : "es-ES"
 title                    : "AITOR RODRÍGUEZ WEBLOG"
 title_separator          : "-"
-name                     : "Aitor Rodríguez"
-description              : "Página personal donde iré publicando artículos relacionados con el desarrollo de software, principalmente en Java."
+name                     : &name "Aitor Rodríguez"
+description              : &description "Blog personal donde iré publicando artículos relacionados con el desarrollo de software, principalmente en Java."
 url                      : "http://aitorrm.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -40,6 +40,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
+linkedin:
+  username               : "aitorrm"
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -70,7 +72,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "aitor_rm"
   facebook         :
   foursquare       :
   github           : "aitorrm"
@@ -164,7 +166,7 @@ defaults:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
