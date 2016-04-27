@@ -198,6 +198,7 @@ Vemos que el vencedor ha sido la concatenación con '+'. En segunda posición es
 Podemos modificar la configuración por defecto haciendo uso de algunas anotaciones.
 
 Por ejemplo, con @BenchmarkMode podemos elegir el tipo de resultado que queremos:
+
 - <code>@BenchmarkMode(Mode.AverageTime)</code>: Muestra la media de tiempo de ejecución. Es el valor por defecto.
 - <code>@BenchmarkMode(Mode.SampleTime)</code>: Muestra el tiempo total de ejecución de un benchmark.
 - <code>@BenchmarkMode(Mode.SingleShotTime)</code>: Hace la ejecución sin iteraciones.
@@ -205,6 +206,7 @@ Por ejemplo, con @BenchmarkMode podemos elegir el tipo de resultado que queremos
 - <code>@BenchmarkMode(Mode.All)</code>: Todos los anteriores.
 
 También podemos controlar los benchmark con las siguientes anotaciones:
+
 - <code>@Fork(n)</code>: Ejecutará 'n' pruebas.
 - <code>@Measurement(n)</code>: Por cada prueba ejecutará 'n' iteraciones.
 - <code>@Threads(n)</code>: Usará 'n' hilos concurrentes para las pruebas.
@@ -274,12 +276,14 @@ public static void main(String[] args) throws Exception {
 Volvamos a nuestra batalla particular, la concatenación de Strings, y recordemos una cosa importante: hasta ahora hemos probado el rendimiento de los aspirantes concatenando cuatro cadenas de texto. ¿Quién nos dice que al concatenar 50 pase lo mismo? ¿y al concatenar sólo dos?
 
 Seamos un poco más ambiciosos y, ya que estamos, vamos a ver en qué casos compensa usar un método u otro según la cantidad de concatenaciones. Vamos a repetir todo el proceso pero con cuatro escenarios distintos:
+
 - Concatenar únicamente dos cadenas de texto.
 - Concatenar tres cadenas de texto.
 - Concatenar cuatro cadenas de texto.
 - y concatenar cincuenta cadenas de texto.
 
 Los cambios que haremos serán:
+
 - crear una clase independiente que concatene tantos asteriscos como se le indique por parámetro. La llamaremos "ConcatString".
 - modificar nuestra clase de benchmark para que llame a la clase concatenadora.
 - añadir tantos benchmarks como escenarios de prueba: en total tendremos 16 benchmarks (cuatros formas de concatenar por cuatro cantidades de concatenaciones).
@@ -357,6 +361,7 @@ BenchmarkConcatString.testTwoConcatStringsWithStringBuilder    avgt   80  0,026 
 ```
 
 Lo cual me lleva a la siguiente conclusión:
+
 - Usar el operador '+' para concatenaciones pequeñas, de no más de 4 cadenas de texto.
 - Usar StringBuilder o StringBuffer para concatenar grandes cantidades de texto (los resultados son prácticamente iguales).
 - No usar nunca String.concat.
