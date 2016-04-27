@@ -1,5 +1,6 @@
 ---
 title: "Java Microbenchmarking con JMH"
+og_image: "site-logo.png"
 header:
   teaser: "post_teaser_testing.jpg"
 categories: 
