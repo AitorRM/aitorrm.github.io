@@ -182,12 +182,6 @@ Aquí podemos comprobar que se ha iniciado el fork 1 de los 10 que tiene previst
 Tras un "ratito" de espera ya tengo los resultados (hay que nerviossss):
 
 ```
-Result "testFourConcatStringsWithStringBuilder":
-  12368649,351 ±(99.9%) 61589,974 ops/s [Average]
-  (min, avg, max) = (11419948,451, 12368649,351, 12744871,319), stdev = 260775,807
-  CI (99.9%): [12307059,377, 12430239,326] (assumes normal distribution)
-
-
 # Run complete. Total time: 00:26:50
 
 Benchmark                                                      Mode  Cnt         Score       Error  Units
