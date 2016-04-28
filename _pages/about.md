@@ -8,7 +8,7 @@ permalink: /about/
 
 ![Aitor Rodríguez](/images/about_me.jpg)
 
-Mi nombre es Aitor Rodríguez Martín. Actualmente mi vida gira en torno a Madrid, donde he vivido toda mi infancia y donde actualmente desempeño mis funciones profesionales. Soy Ingeniero Informático especializado en Ingeniería del Software por la universidad de Alcalá y tengo más de quince años de experiencia en esta profesión, principalmente en entornos Java EE.
+Mi nombre es Aitor Rodríguez Martín. Actualmente mi vida gira en torno a Madrid, donde he vivido toda mi infancia y donde actualmente desempeño mis funciones profesionales. Soy Ingeniero Informático especializado en Ingeniería del Software por la universidad de Alcalá y tengo más de trece años de experiencia en esta profesión, principalmente en entornos Java EE.
 
 En este blog iré publicando artículos sobre diversos temas relacionados con el desarrollo de software. Entre ellos:
 
