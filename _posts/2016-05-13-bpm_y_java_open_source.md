@@ -49,7 +49,7 @@ Si gestionamos los procesos de nuestro negocio aplicando BPM podremos obtener, e
 
 Esta disciplina se fundamenta en el siguiente **ciclo de vida**:
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/images/bpmn/bpmn_lifecycle.jpg)
+![no-alignment]({{ site.url }}{{ site.baseurl }}/images/bpmn/bpm_lifecycle.jpg)
 
 - **Diseño del proceso**
 Es la etapa donde se diseñan y construyen los diagramas de procesos usando la notación gráfica BPMN (Business Process Modeling Notation). Se trata de un diseño de alto nivel elaborado normalmente por gerentes y analistas de procesos.
