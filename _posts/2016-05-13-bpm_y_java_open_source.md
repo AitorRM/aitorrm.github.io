@@ -9,7 +9,7 @@ tags:
   - Open Source
 ---
 
-Tengo intención de publicar una serie de artículos sobre la gestión de procesos BPM con Java Open Source. En este primer post haré una breve introducción a BPM, qué es, para qué sirve, qué beneficios aporta a la organización y en qué consiste la notación gráfica BPMN.  También haré referencia a las características que debe tener una solución software BPM completa y qué alternativas tenemos para integrar un workflow de procesos en un proyecto Java usando APIs Open Source.
+Tengo intención de publicar una serie de artículos sobre el modelado e implementación de procesos BPM con Java Open Source. En este primer post haré una breve introducción a BPM, qué es, para qué sirve, qué beneficios aporta a la organización y en qué consiste la notación gráfica BPMN.  También haré referencia a las características que debe tener una solución software BPM completa y qué alternativas tenemos para integrar un workflow de procesos en un proyecto Java usando APIs Open Source.
 
 En próximos artículos hablaré del API que uso yo actualmente y porqué me decanté por él, y periódicamente iré publicando ejemplos de código e iré profundizando en temas que considero relevantes para iniciarse en los motores de procesos o workflow con notación BPMN.
 
@@ -195,4 +195,6 @@ A día de hoy, la principal diferencia con Activiti es que Camunda, además de B
 - [Comunidad](https://network.camunda.org/)
 - [Página de la solución comercial](https://camunda.com/)
 
-
+## Otras alternativas
+En los puntos anteriores únicamente menciono los que considero "principales" desde mi punto de vista, que es puramente técnico. Estos proyectos son los que mayor actividad tienen dentro de sus comunidades de desarrollo y también son los que más documentación técnica ofrecen para poder integrar sus workflow de procesos en proyectos Java EE. Pero existen muchos otros proyectos BPM open source como [Intalio](http://www.intalio.com/) o [ProcessMaker](https://www.processmaker.com/es). 
+Aquí te dejo una [lista de Java-Source.net](http://java-source.net/open-source/workflow-engines) donde podrás encontrar multitud de proyectos "Open Source Workflow Engine",  algunos de ellos basados en BPEL (Business Process Execution Language).
