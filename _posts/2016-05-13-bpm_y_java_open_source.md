@@ -104,7 +104,7 @@ Son símbolos que ayudan a la comprensión y documentación del proceso pero que
 
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/images/bpmn/bpmn_artefactos.jpg)
 
-Te recomiendo echar un vistazo a [este PDF](http://www.bpmb.de/images/BPMN2_0_Poster_ES.pdf) que resume toda la simbología de BPMN 2.0 (la versión actual de BPMN es la 2.0.2). Y si quieres profundizar en el tema esta es [la especificación formal](http://www.omg.org/spec/BPMN/2.0/PDF/) del estándar.
+Te recomiendo echar un vistazo a [este PDF](http://www.bpmb.de/images/BPMN2_0_Poster_ES.pdf) que resume toda la simbología de BPMN 2.0 (la versión actual de BPMN es la 2.0.2). Y si quieres profundizar en el tema aquí tienes [la especificación formal](http://www.omg.org/spec/BPMN/) del estándar.
 
 # Partes de una arquitectura software completa para BPM
 
