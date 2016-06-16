@@ -9,7 +9,7 @@
 	text-align:center;
 	min-height:40px;
 	background-color: rgba(0, 0, 0, 0.5);
-	color:#fff;
+	color:#eee;
 	z-index:99999;
 }
 
@@ -22,5 +22,5 @@
 	top:30%;
 }
 
-.barracookies-inner a.ok {padding:4px;color:#ffc001;text-decoration:none;}
-.barracookies-inner a.info {padding-left:5px;text-decoration:none;color:#4c96d0;}
+.barracookies-inner a.ok {padding:4px;color:#5ac2dc;text-decoration:none;}
+.barracookies-inner a.info {padding-left:5px;text-decoration:none;color:#5ac2dc;}
