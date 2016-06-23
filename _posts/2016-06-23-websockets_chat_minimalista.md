@@ -12,11 +12,11 @@ tags:
 
 WebSocket es una tecnología que proporciona un **canal de comunicación bidireccional** entre un navegador y un servidor web, aunque puede ser utilizado también por cualquier aplicación cliente/servidor. Gracias a esta tecnología un servidor puede enviar mensajes a un navegador Web sin que éste se lo haya solicitado previamente. Es la incorporación de sockets TCP al mundo Web.
 
-Hasta ahora para crear, por ejemplo un chat en una aplicación Web, había que utilizar técnicas como [Push](https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_Push), [Comet](https://es.wikipedia.org/wiki/Comet) o Long Polling (usado por el chat de Gmail). En este artículo veremos cómo hacer un Chat de forma fácil y sencilla con los WebSockets.
-
 En Java, los WebSockets aparecen a partir de Java EE 7 y son especificados en la [JSR-356](https://jcp.org/en/jsr/detail?id=356). 
 
 En cuanto a la parte cliente, la W3C se está encargando de estandarizarlo. Al ser una tecnología relativamente novedosa no todos los navegadores Web lo soportan (en 2009 Google Chrome fue el primero en hacerlo). Aquí tienes una lista de los [navegadores que soportan Websockets](http://caniuse.com/#search=websockets).
+
+Hasta ahora para crear, por ejemplo un chat en una aplicación Web, había que utilizar técnicas como [Push](https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_Push), [Comet](https://es.wikipedia.org/wiki/Comet) o Long Polling (usado por el chat de Gmail). En este artículo veremos cómo hacer un Chat de forma fácil y sencilla con los WebSockets.
 
 Y después de esta breve introducción vayamos al grano: creemos un chat!!
 
