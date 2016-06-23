@@ -16,7 +16,7 @@ En Java, los WebSockets aparecen a partir de Java EE 7 y son especificados en la
 
 En cuanto a la parte cliente, la W3C se está encargando de estandarizarlo. Al ser una tecnología relativamente novedosa no todos los navegadores Web lo soportan (en 2009 Google Chrome fue el primero en hacerlo). Aquí tienes una lista de los [navegadores que soportan Websockets](http://caniuse.com/#search=websockets).
 
-Hasta ahora para crear, por ejemplo un chat en una aplicación Web, había que utilizar técnicas como [Push](https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_Push), [Comet](https://es.wikipedia.org/wiki/Comet) o Long Polling (usado por el chat de Gmail). En este artículo veremos cómo hacer un Chat de forma fácil y sencilla con los WebSockets.
+Hasta ahora para crear un Chat en una aplicación Web, había que utilizar técnicas como [Push](https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_Push), [Comet](https://es.wikipedia.org/wiki/Comet) o Long Polling (usado por el chat de Gmail). En este artículo veremos cómo hacerlo de forma fácil y sencilla con los WebSockets. El objetivo es crearlo con el mínimo código posible para que sea fácil de entender el concepto. Luego tu puedes añadirle todas las florituras que desees.
 
 Y después de esta breve introducción vayamos al grano: creemos un chat!!
 
@@ -186,7 +186,7 @@ Puedes obtener todo el código fuente en [mi github](https://github.com/AitorRM/
 Yo he añadido tanto la parte servidora como la parte cliente en el mismo proyecto .war y he adaptado ligeramente la parte cliente para incluirlo en el index.jsp típico de un proyecto Web Java.
 
 ## Conclusiones
-Hemos usado la potencia de los Websockets para crear en pocos pasos un chat que puede servirnos como base para añadir todas las florituras que deseemos.
+Hemos usado la potencia de los Websockets para crear en pocos pasos un chat que puede servirnos como base para proyectos más elaborados.
 
 ***Mejoras que podemos hacer en la parte servidora***: control de apertura de conexiones (@OnOpen), control de errores (@OnError), control de cierres de conexión (@OnClose), comunicación entre cliente y servidor con objetos complejos (Data-Transfer-Object) que podríamos codificar y decodificar en JSON. Podemos almacenar usuarios y conversaciones en base de datos. Podemos integrarlo en algún framework MVC Java como JSF o Spring. Y podemos añadir al proyecto los tests unitarios oportunos.
 
