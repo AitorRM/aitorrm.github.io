@@ -157,9 +157,8 @@ defaults:
       author_profile: true
       read_time: false
       comments: true
-      related: true
       share: true
-      
+      related: false
 
 
 # Outputting
