@@ -235,5 +235,5 @@ Como habrás observado, en este post menciono una gran variedad de conceptos té
 
 En definitiva, la experiencia con Activiti está siendo muy positiva.
 
-En el próximo artículo ya por fin entraré en materia práctica: diseñaremos, implementaremos y ejecutaremos nuestro primer proceso con Activiti.
+En [el próximo artículo]({% post_url 2016-08-25-activiti_primer_contacto %}) ya por fin entraré en materia práctica: diseñaremos, implementaremos y ejecutaremos nuestro primer proceso con Activiti.
 
