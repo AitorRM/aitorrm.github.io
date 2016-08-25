@@ -11,6 +11,10 @@ tags:
   - Java
   - Testing
   - JUnit
+related: [
+    "BPM y Java Open Source", 
+    "Activiti BPM: por qué y para qué (caso de implantación)"
+]
 ---
 
 Hoy tendremos nuestra primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti.
