@@ -9,12 +9,6 @@ tags:
   - Activiti
   - Procesos
   - Java
-  - Testing
-  - JUnit
-related: [
-    "BPM y Java Open Source", 
-    "Activiti BPM: por qué y para qué (caso de implantación)"
-]
 ---
 
 Hoy tendremos nuestra primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti.
@@ -458,4 +452,3 @@ Hemos presentado el plugin "Activiti Eclipse BPMN 2.0 Designer", por lo que ya p
 Y hemos realizado pequeños cambios de código que nos permiten entender un poco mejor las entrañas de este API. 
 
 En definitiva con este pequeño proyecto podemos empezar a trastear con el motor de ejecución de procesos (workflow) de Activiti e ir descubriendo todo lo que ofrece.
-
