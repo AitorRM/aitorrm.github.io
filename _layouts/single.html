@@ -64,9 +64,9 @@ layout: default
   
   <br/>ID:{{ page.id }}
   <br/>Related:{{ page.related }}
-  <br/>Size:{{ site.related_posts.size }}
+  <br/>Size:{{  and site.related_posts.size > 0 }}
   
-  {% if page.id and page.related and site.related_posts.size > 0 %}
+  {% if page.id and page.related %}
     <div class="page__related">
       {% if site.data.ui-text[site.locale].related_label %}
         <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label }}</h4>
