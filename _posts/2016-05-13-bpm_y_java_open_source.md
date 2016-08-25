@@ -11,7 +11,7 @@ tags:
 
 Tengo intención de publicar una serie de artículos sobre el modelado e implementación de procesos BPM con Java Open Source. En este primer post haré una breve introducción a BPM, qué es, para qué sirve, qué beneficios aporta a la organización y en qué consiste la notación gráfica BPMN.  También haré referencia a las características que debe tener una solución software BPM completa y qué alternativas tenemos para integrar un workflow de procesos en un proyecto Java usando APIs Open Source.
 
-En próximos artículos hablaré del API que uso yo actualmente y porqué me decanté por él, y periódicamente iré publicando ejemplos de código e iré profundizando en temas que considero relevantes para iniciarse en los motores de procesos o workflow con notación BPMN.
+En próximos artículos hablaré de [el API que uso yo actualmente y porqué me decanté por él]({% post_url 2016-06-16-activiti_bpm_platform_implantacion %}), y periódicamente iré publicando ejemplos de código e iré profundizando en temas que considero relevantes para iniciarse en los motores de procesos o workflow con notación BPMN.
 
 Comencemos...
 
