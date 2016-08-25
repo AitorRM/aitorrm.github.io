@@ -1,7 +1,7 @@
 ---
 title: "Activiti BPM: Primera toma de contacto"
 header:
-  teaser: "post_teaser_activiti.jpg"
+  teaser: "post_teaser_activiti_practica_01.jpg"
 categories: 
   - BPM
 tags:
