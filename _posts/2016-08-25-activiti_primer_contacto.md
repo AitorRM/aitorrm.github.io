@@ -12,9 +12,10 @@ tags:
   - Testing
   - JUnit
 ---
+
 Hoy tendremos nuestra primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti.
 
-Si aún no lo has hecho te recomiendo que empieces leyendo los dos post teóricos que preceden a éste: primero el de [introducción a BPM]({% post_url 2016-05-13-bpm_y_java_open_source %}), donde repaso qué es, para qué sirve y qué beneficios aporta la disciplina BPM; y luego el post de [introducción a Activiti]({% post_url 2016-06-16-activiti_bpm_platform_implantacion.md %}), donde explico qué ofrece este API y qué experiencia tengo con él.
+Si aún no lo has hecho te recomiendo que empieces leyendo los dos post teóricos que preceden a éste: primero el de [introducción a BPM]({% post_url 2016-05-13-bpm_y_java_open_source %}), donde repaso qué es, para qué sirve y qué beneficios aporta la disciplina BPM; y luego el post de [introducción a Activiti]({% post_url 2016-06-16-activiti_bpm_platform_implantacion %}), donde explico qué ofrece este API y qué experiencia tengo con él.
 
 Empezaremos, como no podía ser de otra manera, con un test JUnit. Veremos un ejemplo rápido de diseño, despliegue, ejecución y testeo de un proceso muy básico.
 
