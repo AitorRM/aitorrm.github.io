@@ -9,7 +9,7 @@ tags:
   - Activiti
   - Procesos
   - Java
-  - Test
+  - Testing
   - JUnit
 ---
 Hoy tendremos nuestra primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti.
