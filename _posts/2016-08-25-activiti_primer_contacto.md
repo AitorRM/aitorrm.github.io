@@ -1,5 +1,6 @@
 ---
 title: "Activiti BPM: Primera toma de contacto"
+excerpt: "Ejemplo práctico de implementación de proceso BPM con Activiti."
 header:
   teaser: "post_teaser_activiti_practica_01.jpg"
 categories: 
