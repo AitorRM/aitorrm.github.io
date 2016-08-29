@@ -1,5 +1,6 @@
 ---
 title: "Introducción a TDD"
+excerpt: "Introducción a Test Driven Development"
 header:
   teaser: "post_teaser_tecnicas.jpg"
 categories: 
