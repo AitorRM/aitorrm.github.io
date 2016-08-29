@@ -10,10 +10,6 @@ tags:
   - Activiti
   - Procesos
   - Java
-related: [
-    "bpm_y_java_open_source", 
-    "activiti_bpm_platform_implantacion"
-]
 ---
 
 Hoy tendremos nuestra primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti.
