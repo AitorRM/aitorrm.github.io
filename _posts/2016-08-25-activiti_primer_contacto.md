@@ -11,8 +11,8 @@ tags:
   - Procesos
   - Java
 related: [
-    "BPM y Java Open Source", 
-    "Activiti BPM: por qué y para qué (caso de implantación)"
+    "bpm_y_java_open_source", 
+    "activiti_bpm_platform_implantacion"
 ]
 ---
 
