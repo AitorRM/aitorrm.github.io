@@ -1,6 +1,6 @@
 ---
 title: "Introducción a TDD"
-excerpt: "Introducción a Test Driven Development"
+excerpt: "Empezaremos por el principio: **¿Qué es eso del TDD?** Bueno, TDD es Test Driven Development, que en la lengua de Cervantes viene a decir "desarrollo dirigido por pruebas". Esto nos puede dar una idea inicial del asunto, por una parte tenemos "desarrollo" y por la otra "pruebas", así que lo primero que podríamos pensar es que TDD es una técnica para probar nuestro código. Vale, pues no."
 header:
   teaser: "post_teaser_tecnicas.jpg"
 categories: 
