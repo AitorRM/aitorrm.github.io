@@ -1,8 +1,6 @@
 ---
 title: "Activiti BPM: Primera toma de contacto"
-excerpt: "Hoy tendremos nuestra primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti.
-Empezaremos, como no podía ser de otra manera, con un test JUnit. Veremos un ejemplo rápido de diseño, despliegue, ejecución y testeo de un proceso muy básico.
-Y sin más dilación... al turrón!!"
+excerpt: "Primera toma de contacto práctica con la implementación de procesos BPM usando el API de Activiti. Empezaremos, como no podía ser de otra manera, con un test JUnit. Veremos un ejemplo rápido de diseño, despliegue, ejecución y testeo de un proceso muy básico."
 header:
   teaser: "post_teaser_activiti_practica_01.jpg"
 categories: 
