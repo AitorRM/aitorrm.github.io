@@ -28,7 +28,7 @@ En 2005 Alistair Cockburn propone el concepto de "[Hexagonal Architecture](http:
 
 La idea, a groso modo, se fundamenta en la construcción de sistemas software basados en una serie de puertos (interfaces públicas de acceso) y unos adaptadores (implementaciones de esas interfaces para un contexto concreto) que se comunican con el núcleo de la aplicación, que es donde está toda la lógica de negocio.
 
-![enter image description here](http://4.bp.blogspot.com/-ugWyu8WPbVM/TdZQyfFqHHI/AAAAAAAAAb4/8T7ehzOcIN8/s1600/figure2.png)
+![Hexagonal Architecture](http://4.bp.blogspot.com/-ugWyu8WPbVM/TdZQyfFqHHI/AAAAAAAAAb4/8T7ehzOcIN8/s1600/figure2.png)
 
 Fuente: [http://blog.kennardconsulting.com/2011_05_01_archive.html](http://blog.kennardconsulting.com/2011_05_01_archive.html)
 
@@ -46,7 +46,7 @@ El propio autor lo define como "un patrón arquitectónico" que pretende evitar 
 
 Para evitar éstos acoplamientos propone una arquitectura basada en capas circulares a modo de cebolla. Todo este sistema de capas estará restringido por una regla fundamental: todo el código puede depender de las capas más centrales, pero no puede depender de las capas más alejadas del núcleo. Es decir, todo el acoplamiento es hacia el centro.
 
-![enter image description here](http://jeffreypalermo.com/files/media/image/WindowsLiveWriter/TheOnionArchitecturepart1_70A9/image%7B0%7D%5B59%5D.png)
+![Onion Architecture](http://jeffreypalermo.com/files/media/image/WindowsLiveWriter/TheOnionArchitecturepart1_70A9/image%7B0%7D%5B59%5D.png)
 
 Fuente: [http://jeffreypalermo.com/blog/the-onion-architecture-part-1/](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/)
 
@@ -92,7 +92,7 @@ Uncle Bob se da cuenta de que, en definitiva, todos estos conceptos y arquitectu
 
 Siguiendo con su intención de unificar criterios, Uncle Bob integra todas estas arquitecturas en una sola idea representada por el siguiente esquema:
 
-![<<<imagen clean architecture>>>](https://8thlight.com/blog/assets/posts/2012-08-13-the-clean-architecture/CleanArchitecture-8b00a9d7e2543fa9ca76b81b05066629.jpg)
+![Clean Architecture](https://8thlight.com/blog/assets/posts/2012-08-13-the-clean-architecture/CleanArchitecture-8b00a9d7e2543fa9ca76b81b05066629.jpg)
 
 Fuente: [https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 
