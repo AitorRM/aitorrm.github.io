@@ -54,11 +54,11 @@ Cada capa tendrá una responsabilidad concreta:
 
 * **Núcleo de aplicación**:
 
- * **Modelo de Dominio**: En el centro estará el modelo de dominio, que representa los objetos y estados de la organización.
+  * **Modelo de Dominio**: En el centro estará el modelo de dominio, que representa los objetos y estados de la organización.
 
- * **Servicios de Dominio**: Interfaces que definen comportamientos y operaciones sobre el modelo de dominio.
+  * **Servicios de Dominio**: Interfaces que definen comportamientos y operaciones sobre el modelo de dominio.
 
- * **Servicios de Aplicación**: Interfaces que definen comportamientos específicos de la aplicación.
+  * **Servicios de Aplicación**: Interfaces que definen comportamientos específicos de la aplicación.
 
 * **Elementos Externos**: En la parte más externa se encuentra la **interfaz de usuario**, la **infraestructura** y el sistema de **pruebas**. La capa exterior está reservada para las cosas que pueden cambiar más a menudo. Estas cosas deben estar aisladas del núcleo de la aplicación. Por ejemplo, aquí se implementarían las interfaces definidas en las capas de servicio. Estas implementaciones sí tendrán dependencias tecnológicas.
 
