@@ -30,7 +30,7 @@ La idea, a groso modo, se fundamenta en la construcción de sistemas software ba
 
 ![enter image description here](http://4.bp.blogspot.com/-ugWyu8WPbVM/TdZQyfFqHHI/AAAAAAAAAb4/8T7ehzOcIN8/s1600/figure2.png)
 
-Fuente: http://blog.kennardconsulting.com/2011_05_01_archive.html
+Fuente: [http://blog.kennardconsulting.com/2011_05_01_archive.html](http://blog.kennardconsulting.com/2011_05_01_archive.html)
 
 Con esto se persigue implementar la lógica de negocio (el núcleo) de forma aislada e independiente de cualquier agente externo. Los puertos y adaptadores son los puntos de entrada, salida y conversión de datos. Existirá un adaptador para cada agente externo: un adaptador para la interfaz de usuario (UI), otro para la persistencia, otro para la ejecución de tests, otro para la comunicación con otros servicios, etc. De esta manera se consiguen sistemas más reutilizables, más modulares y más mantenibles. Y la forma de conseguir este desacoplamiento es a través del **principio de inversión de dependencias** (del cual ya hablé con mayor profundidad en [este artículo]({% post_url 2016-05-24-dip_di_ioc %}).
 
@@ -48,7 +48,7 @@ Para evitar éstos acoplamientos propone una arquitectura basada en capas circul
 
 ![enter image description here](http://jeffreypalermo.com/files/media/image/WindowsLiveWriter/TheOnionArchitecturepart1_70A9/image%7B0%7D%5B59%5D.png)
 
-Fuente: http://jeffreypalermo.com/blog/the-onion-architecture-part-1/
+Fuente: [http://jeffreypalermo.com/blog/the-onion-architecture-part-1/](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/)
 
 Cada capa tendrá una responsabilidad concreta:
 
@@ -94,7 +94,7 @@ Siguiendo con su intención de unificar criterios, Uncle Bob integra todas estas
 
 ![<<<imagen clean architecture>>>](https://8thlight.com/blog/assets/posts/2012-08-13-the-clean-architecture/CleanArchitecture-8b00a9d7e2543fa9ca76b81b05066629.jpg)
 
-Fuente: https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
+Fuente: [https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 Cada círculo representa un **área** del software:
 
