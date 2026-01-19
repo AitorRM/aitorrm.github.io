@@ -29,3 +29,7 @@ exclude:
   - node_modules
   - vendor
   - .jekyll-cache
+
+# Navigation
+navigation:
+  - main
