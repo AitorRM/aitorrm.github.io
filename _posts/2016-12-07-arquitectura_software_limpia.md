@@ -1,7 +1,7 @@
 ---
 title: "El camino hacia una arquitectura software limpia - Hexagonal, Onion y Clean Architecture"
 header:
-  teaser: "post_teaser_architecture.jpg"
+  teaser: "/images/post_teaser_architecture.jpg"
 categories: 
   - Técnicas y Metodologías
 tags:
