@@ -35,6 +35,9 @@ defaults:
     values:
       layout: "single"
       comments: true # Esto activa la caja de comentarios Disqus
+      read_time: true
+      related: true
+      author_profile: true
   - scope:
       path: "_pages"
     values:
