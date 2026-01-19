@@ -5,3 +5,5 @@ main:
     url: /categories/
   - title: "Sobre mí"
     url: /about/
+- title: "Contacto"
+    url: /contact/
