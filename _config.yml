@@ -58,3 +58,13 @@ paginate_path: "/page:num/"
 # Configuración del home
 home:
   type: posts
+
+author:
+  name   : "Aitor Rodríguez"
+  avatar : "/images/aitor_profile.jpg"
+  bio    : "Ingeniero Informático. Agile Delivery Leader con backgroung técnico."
+  location: "España"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/aitorrm/"
