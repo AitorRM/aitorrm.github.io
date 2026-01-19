@@ -9,6 +9,11 @@ baseurl: ""
 # Configuración del Favicon
 favicon: "/images/favicon/favicon.ico"
 
+# Configuración de iconos
+header:
+  # El tema usa este campo para el icono de la cabecera (opcional)
+  logo: "/images/favicon/favicon-32x32.png"
+
 # Plugins necesarios
 plugins:
   - jekyll-paginate
@@ -83,18 +88,6 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "aitorrodriguezweblog" # Sustituye esto por tu nombre real en Disqus
-
-# Soporte para iconos de dispositivos y manifiesto
-head_scripts:
-  - src: "/images/favicon/apple-touch-icon.png"
-    rel: "apple-touch-icon"
-  - src: "/images/favicon/manifest.json"
-    rel: "manifest"
-  - src: "/images/favicon/favicon-32x32.png"
-    rel: "icon"
-    sizes: "16x16"
-  - src: "/images/favicon/favicon.ico"
-    rel: "shortcut icon"
 
 # Configuración de posts relacionados
 related_limit: 4
