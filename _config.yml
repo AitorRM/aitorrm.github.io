@@ -1,62 +1,19 @@
-# Configuración Moderna para Aitor Rodríguez (Minimal Mistakes + Remote Theme)
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 
-# Site Settings
-locale           : "es-ES"
-title            : "AITOR RODRÍGUEZ WEBLOG"
-title_separator  : "-"
-name             : "Aitor Rodríguez"
-description      : "Blog personal sobre desarrollo de software, principalmente en Java."
-url              : "https://aitorrm.github.io" # Forzado a HTTPS
-baseurl          : "" # Déjalo vacío si tu web carga directamente en aitorrm.github.io
+# Configuración básica
+title: "AITOR RODRÍGUEZ WEBLOG"
+url: "https://aitorrm.github.io"
+baseurl: ""
 
-# TEMA REMOTO (La magia ocurre aquí)
-remote_theme     : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin : "default" # Puedes probar "air", "aqua", "contrast", "dirt", "neon" después.
-
-# Site Author
-author:
-  name     : "Aitor Rodríguez"
-  avatar   : "/assets/images/aitor_profile.jpg" # Asegúrate de que tu foto esté en esta ruta
-  bio      : "Un informático de esos..."
-  location : "España"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/aitorrm"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/aitorrm"
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Plugins (Nueva sintaxis)
+# Plugins necesarios
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-remote-theme
 
-# Defaults para tus posts
+# Esto fuerza a tus posts antiguos a usar el layout nuevo
 defaults:
   - scope:
       path: ""
@@ -64,36 +21,11 @@ defaults:
     values:
       layout: "single"
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
 
-# Otros ajustes
-markdown: kramdown
-highlighter: rouge
-paginate: 20
-paginate_path: "/page:num/"
-timezone: Europe/Madrid
-
-# Desactivar sidebars conflictivos temporalmente
-sidebar:
-  nav: "main"
-
-# Forzar que no busque layouts antiguos
-jekyll-titles-from-headings:
-  enabled: false
-
-# Forzar layout moderno para todo el contenido antiguo
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "single" # Esto sobrescribe el 'layout: post' de tus archivos .md
-      author_profile: true
-
-# Desactivar funciones que dan error en la migración
-search: false
-include_cache:
-  enabled: false
-
+# Desactivar basura que da error
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .jekyll-cache
