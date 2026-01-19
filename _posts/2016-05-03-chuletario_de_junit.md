@@ -1,7 +1,7 @@
 ---
 title: "Chuletario de JUnit"
 header:
-  teaser: "post_teaser_test.jpg"
+  teaser: "/images/post_teaser_test.jpg"
 categories: 
   - Testing
 tags:
@@ -258,4 +258,5 @@ public static void main(String[] args) {
 Te recomiendo ejecutar esta clase con JUnit en modo debug, poner un punto de interrupción en cada método y comprobar en cada caso cual es el identificador de memoria de MyTest.
 
 A lo que quiero llegar es a que las cosas inicializadas en un before no son directamente visibles a otro before. Por ejemplo, si en el test01 hago una prueba de base de datos y en el before abro la conexión, cuando se ejecute el test02 no podré reutilizar esa conexión aunque la haya guardado como variable global. Cada test es independiente. Aunque, por supuesto, me las puedo ingeniar de otra manera y usar una clase externa con un Singleton, un Factory, etc., pero es importante tener en cuenta estos ámbitos de ejecución cuando se escriben pruebas con JUnit.
+
 
