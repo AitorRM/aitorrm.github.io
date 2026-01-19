@@ -84,17 +84,16 @@ sidebar:
 jekyll-titles-from-headings:
   enabled: false
 
-# Forzar a que todos los posts usen el layout moderno y no el de 2016
+# Forzar layout moderno para todo el contenido antiguo
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
-      layout: "single" # Cambiamos 'post' por 'single' que es el estándar de MM
+      layout: "single" # Esto sobrescribe el 'layout: post' de tus archivos .md
       author_profile: true
-      read_time: true
 
-# Evitar que busque componentes que faltan
-minimal_mistakes_skin: "default"
-search: true
+# Desactivar funciones que dan error en la migración
+search: false
+include_cache:
+  enabled: false
 
