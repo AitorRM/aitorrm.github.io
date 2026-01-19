@@ -37,6 +37,7 @@ defaults:
       comments: true # Esto activa la caja de comentarios Disqus
       read_time: true
       related: true
+      entries_layout: grid
       author_profile: true
   - scope:
       path: "_pages"
