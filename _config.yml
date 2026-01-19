@@ -94,3 +94,6 @@ head_scripts:
     sizes: "16x16"
   - src: "/images/favicon/favicon.ico"
     rel: "shortcut icon"
+
+# Configuración de posts relacionados
+related_limit: 4
