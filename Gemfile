@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages"
-# gem "jekyll-archives"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Hello! This is your updated Gemfile for 2026
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem "jekyll-remote-theme"
