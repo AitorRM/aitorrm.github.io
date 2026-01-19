@@ -75,3 +75,11 @@ highlighter: rouge
 paginate: 20
 paginate_path: "/page:num/"
 timezone: Europe/Madrid
+
+# Desactivar sidebars conflictivos temporalmente
+sidebar:
+  nav: "main"
+
+# Forzar que no busque layouts antiguos
+jekyll-titles-from-headings:
+  enabled: false
