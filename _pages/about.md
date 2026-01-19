@@ -2,7 +2,7 @@
 title: "Acerca de Aitor Rodríguez"
 layout: single
 excerpt: "Mi nombre es Aitor Rodríguez Martín. "
-sitemap: false
+author_profile: true
 permalink: /about/
 ---
 
