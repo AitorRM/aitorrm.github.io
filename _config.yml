@@ -16,14 +16,23 @@ plugins:
   - jekyll-feed
   - jemoji
 
-# Esto fuerza a tus posts antiguos a usar el layout nuevo
+# Directorio de páginas
+include:
+  - _pages
+
+# Configuración de enlaces permanentes (Permalinks)
+permalink: /:categories/:title/
+
+# Ajuste para que las páginas en _pages se procesen bien
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
       layout: "single"
-      author_profile: true
+  - scope:
+      path: "_pages"
+    values:
+      layout: "single"
 
 # Desactivar basura que da error
 exclude:
