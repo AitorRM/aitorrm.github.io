@@ -90,7 +90,7 @@ head_scripts:
     rel: "apple-touch-icon"
   - src: "/images/favicon/manifest.json"
     rel: "manifest"
-  - src: "/images/favicon/favicon-16x16.png"
+  - src: "/images/favicon/favicon-32x32.png"
     rel: "icon"
     sizes: "16x16"
   - src: "/images/favicon/favicon.ico"
