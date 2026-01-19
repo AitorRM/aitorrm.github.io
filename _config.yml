@@ -6,8 +6,8 @@ title: "AITOR RODRÍGUEZ WEBLOG"
 url: "https://aitorrm.github.io"
 baseurl: ""
 
-# Favicon principal para el navegador
-favicon: "/images/favicon/favicon-32x32.png"
+# Configuración del Favicon
+favicon: "/images/favicon/favicon.ico"
 
 # Plugins necesarios
 plugins:
