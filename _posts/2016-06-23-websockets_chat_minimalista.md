@@ -1,7 +1,7 @@
 ---
 title: "Java Websockets: Un Chat con el mínimo código"
 header:
-  teaser: "post_teaser_websockets.jpg"
+  teaser: "/images/post_teaser_websockets.jpg"
 categories: 
   - Java EE
 tags:
