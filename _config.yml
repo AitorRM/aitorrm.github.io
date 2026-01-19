@@ -19,6 +19,7 @@ plugins:
 # Directorio de páginas
 include:
   - _pages
+  - _data
 
 # Configuración de enlaces permanentes (Permalinks)
 permalink: /:categories/:title/
@@ -41,6 +42,10 @@ exclude:
   - node_modules
   - vendor
   - .jekyll-cache
+
+# Desactivar la búsqueda de archivos locales que ya no existen
+include_cache:
+  enabled: false
 
 # Navigation
 navigation:
