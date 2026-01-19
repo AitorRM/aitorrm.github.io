@@ -2,7 +2,7 @@
 title: "Java Microbenchmarking con JMH"
 og_image: "site-logo.png"
 header:
-  teaser: "post_teaser_testing.jpg"
+  teaser: "/images/post_teaser_testing.jpg"
 categories: 
   - Código Efectivo
 tags:
@@ -376,3 +376,4 @@ Luego me fue de gran ayuda [este](http://java-performance.info/jmh/) otro artíc
 Y otros artículos que encontré en español como [éste](http://www.apuntesdejava.com/2015/12/midiendo-el-rendimiento-con-jmh-java.html) de "Apuntes de Java" y [éste](http://www.adictosaltrabajo.com/tutoriales/introduccion-a-jmh/) de "Adistosaltrabajo".
 
 Si quieres trastear más aquí puedes ver multitud de [ejemplos de JMH](http://hg.openjdk.java.net/code-tools/jmh/file/tip/jmh-samples/src/main/java/org/openjdk/jmh/samples/).
+
