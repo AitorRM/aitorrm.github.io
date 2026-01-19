@@ -8,10 +8,13 @@ baseurl: ""
 
 # Plugins necesarios
 plugins:
+  - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
 
 # Esto fuerza a tus posts antiguos a usar el layout nuevo
 defaults:
@@ -35,7 +38,7 @@ navigation:
   - main
 
 # Paginación (para que no salgan todos los posts en una sola página)
-paginate: 10
+paginate: 7
 paginate_path: "/page:num/"
 
 # Configuración del home
