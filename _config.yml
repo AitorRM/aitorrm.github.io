@@ -33,3 +33,11 @@ exclude:
 # Navigation
 navigation:
   - main
+
+# Paginación (para que no salgan todos los posts en una sola página)
+paginate: 10
+paginate_path: "/page:num/"
+
+# Configuración del home
+home:
+  type: posts
