@@ -83,3 +83,18 @@ sidebar:
 # Forzar que no busque layouts antiguos
 jekyll-titles-from-headings:
   enabled: false
+
+# Forzar a que todos los posts usen el layout moderno y no el de 2016
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: "single" # Cambiamos 'post' por 'single' que es el estándar de MM
+      author_profile: true
+      read_time: true
+
+# Evitar que busque componentes que faltan
+minimal_mistakes_skin: "default"
+search: true
+
