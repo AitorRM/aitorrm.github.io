@@ -28,8 +28,10 @@ permalink: /:categories/:title/
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
       layout: "single"
+      comments: true # Esto activa la caja de comentarios Disqus
   - scope:
       path: "_pages"
     values:
@@ -68,3 +70,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/aitorrm/"
+
+# Configuración de Comentarios
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "@disqus_DYPB8KScBJ" # Sustituye esto por tu nombre real en Disqus
