@@ -1,7 +1,7 @@
 ---
 title: "Activiti BPM: por qué y para qué (caso de implantación)"
 header:
-  teaser: "post_teaser_activiti.jpg"
+  teaser: "/images/post_teaser_activiti.jpg"
 categories: 
   - BPM
 tags:
