@@ -1,7 +1,7 @@
 ---
 title: "Interfaces en Java 8, ¿Traits? ¿Herencia múltiple?"
 header:
-  teaser: "post_teaser_interface.jpg"
+  teaser: "/images/post_teaser_interface.jpg"
 categories: 
   - Java 8
 tags:
