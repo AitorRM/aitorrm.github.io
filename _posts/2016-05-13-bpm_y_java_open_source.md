@@ -1,7 +1,7 @@
 ---
 title: "BPM y Java Open Source"
 header:
-  teaser: "post_teaser_process.jpg"
+  teaser: "/images/post_teaser_process.jpg"
 categories: 
   - Técnicas y Metodologías
 tags:
