@@ -1,7 +1,7 @@
 ---
 title: "Especificaciones JSR para CDI"
 header:
-  teaser: "post_teaser_especificacion.jpg"
+  teaser: "/images/post_teaser_especificacion.jpg"
 categories: 
   - Java EE
 tags:
