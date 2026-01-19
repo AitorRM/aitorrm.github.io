@@ -57,7 +57,7 @@ navigation:
   - main
 
 # Paginación (para que no salgan todos los posts en una sola página)
-paginate: 7
+paginate: 5
 paginate_path: "/page:num/"
 
 # Configuración del home
