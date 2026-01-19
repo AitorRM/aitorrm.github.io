@@ -1,7 +1,7 @@
 ---
 title: "Introducción a TDD"
 header:
-  teaser: "post_teaser_tecnicas.jpg"
+  teaser: "/images/post_teaser_tecnicas.jpg"
 categories: 
   - Técnicas y Metodologías
 tags:
