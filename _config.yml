@@ -6,6 +6,9 @@ title: "AITOR RODRÍGUEZ WEBLOG"
 url: "https://aitorrm.github.io"
 baseurl: ""
 
+# Configuración regional
+locale: "es-ES"
+
 # Configuración del Favicon
 favicon: "/images/favicon/favicon.ico"
 
